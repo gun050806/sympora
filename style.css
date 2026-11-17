@@ -50,8 +50,6 @@ a { color: inherit; }
   padding: 15px 26px; border: 1px solid var(--point); border-radius: 2px;
 }
 .btn:hover { background: #1E36C9; }
-.btn--small { font-size: 13.5px; padding: 9px 14px; background: transparent; color: var(--point); }
-.btn--small:hover { background: var(--point); color: #fff; }
 .btn--big { font-size: 16.5px; padding: 18px 34px; }
 .btn.is-off { background: transparent; color: var(--muted); border-color: var(--line); cursor: default; }
 .link { font-size: 15.5px; color: var(--body); text-underline-offset: 5px; text-decoration-color: var(--line); }
@@ -126,7 +124,6 @@ a { color: inherit; }
   body { font-size: 16px; }
   .nav { display: none; }
   .top__inner { height: 76px; }
-  .top .btn--small { margin-left: auto; }
   .hero__inner { padding-top: 80px; padding-bottom: 80px; }
   .hero__sub { font-size: 16px; }
   .sec { padding: 76px 0; }
