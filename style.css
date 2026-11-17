@@ -86,10 +86,11 @@ a { color: inherit; }
 .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 44px 48px; counter-reset: s; }
 .steps li { display: grid; gap: 10px; align-content: start; padding-top: 20px; border-top: 1px solid var(--ink); counter-increment: s; }
 .steps li::before { content: counter(s, decimal-leading-zero); font-family: var(--f-logo); font-style: italic; font-weight: 600; font-size: 18px; color: var(--point); line-height: 1; }
-.not { margin-top: 64px; display: grid; gap: 10px; }
-.not__title { font-family: var(--f-head); font-weight: 600; color: var(--ink); font-size: 17px; }
-.not ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 0; color: var(--body); }
-.not li + li::before { content: "·"; margin: 0 12px; color: var(--muted); }
+.not { margin-top: 64px; display: grid; gap: 14px; }
+.not__title { font-family: var(--f-head); font-weight: 600; color: var(--ink); font-size: 19px; }
+.not ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
+.not li { display: grid; grid-template-columns: 36px 1fr; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--ink); }
+.not li::before { content: "\00D7"; font-size: 20px; line-height: 1; color: var(--point); }
 
 /* 03 약속 */
 .rules { margin: 0; padding: 0; list-style: none; counter-reset: r; border-top: 1px solid var(--ink); }
