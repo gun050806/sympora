@@ -95,10 +95,6 @@ a { color: inherit; }
 .rules { margin: 0; padding: 0; list-style: none; counter-reset: r; border-top: 1px solid var(--ink); }
 .rules li { counter-increment: r; display: grid; grid-template-columns: 36px 1fr; padding: 16px 0; border-bottom: 1px solid var(--line); }
 .rules li::before { content: counter(r); font-family: var(--f-logo); font-style: italic; font-weight: 600; font-size: 19px; color: var(--point); line-height: 1.5; }
-.debate { margin-top: 56px; display: grid; gap: 14px; }
-.debate__title { font-family: var(--f-head); font-weight: 600; color: var(--ink); font-size: 19px; }
-.debate ul { margin: 0; padding: 0 0 0 1.1em; display: grid; gap: 8px; }
-.debate li::marker { color: var(--point); }
 
 /* 04 지원 */
 .flow { list-style: none; margin: 0 0 48px; padding: 0; display: grid; gap: 28px; }
