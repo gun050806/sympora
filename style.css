@@ -35,6 +35,7 @@ a { color: inherit; }
 .logo b { width: 56px; height: 56px; flex: none; border-radius: 50%; display: grid; place-items: center; padding-bottom: 3px; font-family: var(--f-logo); font-style: italic; font-weight: 700; font-size: 13.5px; line-height: 1; color: #fff; background: var(--logo); -webkit-text-stroke: .2px #fff; }
 .foot .logo b { width: 72px; height: 72px; font-size: 17.5px; padding-bottom: 4px; }
 .foot .logo span { font-size: 22px; }
+.top .logo span { font-size: 23px; }
 .logo span { font-family: var(--f-head); font-weight: 700; font-size: 19px; line-height: 1; color: var(--ink); letter-spacing: -.01em; }
 
 /* 상단 */
@@ -125,9 +126,9 @@ a { color: inherit; }
   body { font-size: 16px; }
   /* 휴대폰: 로고 줄 아래에 메뉴 줄. 내리면 로고 줄은 올라가고 메뉴 줄만 위에 붙어 있음 */
   html { scroll-padding-top: 64px; }
-  .top { top: -76px; }
+  .top { top: -64px; }
   .top__inner { height: auto; flex-wrap: wrap; gap: 0; justify-content: center; }
-  .top .logo { height: 76px; }
+  .top .logo { height: 64px; }
   .nav { width: 100%; margin-left: 0; height: 48px; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
   .nav::-webkit-scrollbar { display: none; }
   .nav a { font-size: 14.5px; white-space: nowrap; }
