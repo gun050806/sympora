@@ -31,10 +31,11 @@ a { color: inherit; }
 
 /* 로고 */
 /* 로고: 카드뉴스와 같은 파란 상자 (로고에만 이 파랑을 씀) */
-.logo { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
-.logo b { width: 64px; height: 64px; flex: none; border-radius: 50%; display: grid; place-items: center; padding-bottom: 3px; font-family: var(--f-logo); font-style: italic; font-weight: 700; font-size: 15.5px; line-height: 1; color: #fff; background: var(--logo); -webkit-text-stroke: .2px #fff; }
-.foot .logo b { width: 96px; height: 96px; font-size: 23px; padding-bottom: 4px; }
-.logo span { font-family: var(--f-body); font-weight: 500; font-size: 13px; color: var(--muted); letter-spacing: .08em; }
+.logo { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; }
+.logo b { width: 56px; height: 56px; flex: none; border-radius: 50%; display: grid; place-items: center; padding-bottom: 3px; font-family: var(--f-logo); font-style: italic; font-weight: 700; font-size: 13.5px; line-height: 1; color: #fff; background: var(--logo); -webkit-text-stroke: .2px #fff; }
+.foot .logo b { width: 72px; height: 72px; font-size: 17.5px; padding-bottom: 4px; }
+.foot .logo span { font-size: 22px; }
+.logo span { font-family: var(--f-head); font-weight: 700; font-size: 19px; line-height: 1; color: var(--ink); letter-spacing: -.01em; }
 
 /* 상단 */
 .top { position: sticky; top: 0; z-index: 10; background: rgba(255, 255, 255, .97); border-bottom: 1px solid var(--line); }
