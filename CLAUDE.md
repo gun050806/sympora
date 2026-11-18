@@ -20,6 +20,6 @@
 
 ## 디자인
 - 카드뉴스와 다르게, 정갈하게: 제목 Noto Serif KR(명조) 600·700, 본문 Pretendard Medium·Bold(fonts/ 직접 포함), 흰 바탕. 글씨는 두껍게 (사용자 요청)
-- 맨 위(헤더)는 파란 원 로고 없이 영어 "Sympora"만 (파랑 이탤릭 Cormorant Garamond, 휴대폰은 가운데). 맨 아래만 파란 원 로고(#2A47F5, 흰 이탤릭 "Sympora", Cormorant Garamond) + "심포라". 버튼·번호도 같은 파랑
+- 맨 위(헤더)는 파란 원 로고 없이 영어 "Sympora"(파랑 이탤릭 Cormorant Garamond) + 그 아래 작은 회색 "심포라". 휴대폰은 가운데. 맨 아래만 파란 원 로고(#2A47F5, 흰 이탤릭 "Sympora", Cormorant Garamond) + "심포라". 버튼·번호도 같은 파랑
 - 장식(스티커, 형광펜, 그라데이션, 이모지) 쓰지 않기
 - 휴대폰 하단에 "심포라 1기 지원하기" 고정 버튼
