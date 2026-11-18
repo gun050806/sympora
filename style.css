@@ -126,7 +126,7 @@ a { color: inherit; }
   /* 휴대폰: 로고 줄 아래에 메뉴 줄. 내리면 로고 줄은 올라가고 메뉴 줄만 위에 붙어 있음 */
   html { scroll-padding-top: 64px; }
   .top { top: -76px; }
-  .top__inner { height: auto; flex-wrap: wrap; gap: 0; }
+  .top__inner { height: auto; flex-wrap: wrap; gap: 0; justify-content: center; }
   .top .logo { height: 76px; }
   .nav { width: 100%; margin-left: 0; height: 48px; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
   .nav::-webkit-scrollbar { display: none; }
