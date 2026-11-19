@@ -3,7 +3,7 @@
 같이 생각하는 사람들의 모임 "심포라"의 홈페이지. 사용자는 주로 휴대폰으로 작업하며 한국어로 답해야 함.
 
 ## 기본 정보
-- 사이트: https://gun050806.github.io/sympora/ (GitHub Pages, `main` 브랜치, 루트 폴더). 별도 빌드 없음 (순수 HTML/CSS/JS)
+- 사이트: https://sympora.site (도메인은 가비아에서 구매, 루트의 CNAME 파일로 연결). 원래 주소 https://gun050806.github.io/sympora/ (GitHub Pages, `main` 브랜치, 루트 폴더). 별도 빌드 없음 (순수 HTML/CSS/JS)
 - style.css를 바꾸면 index.html의 `style.css?v=...` 값도 바꿔야 휴대폰에 바로 반영됨 (Pages 캐시 10분)
 - 사용자 휴대폰은 다크 모드 → `color-scheme: only light`로 막아 둠
 - 기획 문서(claude.ai 아티팩트): 심포라 기획안, 심포라 1년 계획, 심포라 카드뉴스, 심포라 책 노트
