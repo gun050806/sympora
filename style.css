@@ -116,6 +116,19 @@ a { color: inherit; }
 .faq details[open] summary::after { content: "−"; }
 .faq details p { padding: 0 0 24px; }
 
+/* 03 세 가지 모임 */
+.kinds { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; }
+.kinds li { display: grid; gap: 10px; align-content: start; grid-template-rows: auto auto 1fr auto; padding-top: 20px; border-top: 1px solid var(--ink); }
+.kinds__who { font-size: 13.5px; font-weight: 700; color: var(--point); }
+.kinds__meta { margin-top: 6px; padding-top: 12px; border-top: 1px solid var(--line); font-size: 14.5px; font-weight: 700; color: var(--ink); }
+.term { margin-top: 64px; display: grid; gap: 14px; }
+.term__title { font-family: var(--f-head); font-weight: 700; color: var(--ink); font-size: 19px; }
+.term ol { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
+.term li { display: grid; grid-template-columns: 96px 1fr; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+.term li b { color: var(--point); }
+.term__note { font-size: 14.5px; color: var(--body); }
+
+
 /* 아래 */
 .foot { padding: 56px 0 64px; }
 .foot__inner { display: grid; gap: 14px; justify-items: start; color: var(--muted); font-size: 14.5px; }
@@ -138,7 +151,9 @@ a { color: inherit; }
   .hero__sub { font-size: 16px; }
   .sec { padding: 76px 0; }
   .sec h2 { margin-bottom: 36px; }
-  .cols, .steps { grid-template-columns: 1fr; gap: 36px; }
+  .cols, .steps, .kinds { grid-template-columns: 1fr; gap: 36px; }
+  .kinds li { grid-template-rows: none; }
+  .term li { grid-template-columns: 80px 1fr; }
   .btn--big { width: 100%; }
   .bar {
     display: block; position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
